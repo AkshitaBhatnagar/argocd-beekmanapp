@@ -25,10 +25,10 @@
          name: beekman-1
          resources:
            limits:
-             cpu: 11m
+             cpu: 1100m
              memory: 500Mi
            requests:
-             cpu: 10m
+             cpu: 1000m
              memory: 10Mi
          terminationMessagePath: /dev/termination-log
          terminationMessagePolicy: File
