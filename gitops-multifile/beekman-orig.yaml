@@ -45,8 +45,8 @@
              cpu: 11m
              memory: 28Mi
            requests:
-             cpu: 10m
-             memory: 10Mi
+             cpu: 8m
+             memory: 5Mi
          terminationMessagePath: /dev/termination-log
          terminationMessagePolicy: File
        dnsPolicy: ClusterFirst
