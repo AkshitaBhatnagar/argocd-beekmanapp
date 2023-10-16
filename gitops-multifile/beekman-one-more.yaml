@@ -20,14 +20,14 @@
          - name: RUN_TYPE
            value: cpu
          - name: CPU_PERCENT
-           value: "95"
+           value: "100"
          image: quay.io/ecotz/sampleapp:latest
          imagePullPolicy: Always
          name: beekman-1
          resources:
            limits:
-             cpu: 11m
-             memory: 28Mi
+             cpu: 100m
+             memory: 12Mi
            requests:
              cpu: 10m
              memory: 10Mi
