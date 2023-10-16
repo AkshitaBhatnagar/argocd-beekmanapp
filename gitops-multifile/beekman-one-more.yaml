@@ -20,7 +20,7 @@
          - name: RUN_TYPE
            value: cpu
          - name: CPU_PERCENT
-           value: "120"
+           value: "95"
          image: quay.io/ecotz/sampleapp:latest
          imagePullPolicy: Always
          name: beekman-1
@@ -29,7 +29,7 @@
              cpu: 11m
              memory: 28Mi
            requests:
-             cpu: 1m
+             cpu: 10m
              memory: 10Mi
          terminationMessagePath: /dev/termination-log
          terminationMessagePolicy: File
